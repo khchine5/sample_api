@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "label": "Average price",
+        "grouping": [
+            { "id": 1, "label": "per product"           },
+            { "id": 2, "label": "per brand"             },
+            { "id": 3, "label": "per product per brand" }
+        ],
+        "fields": {
+            "required": [
+                { "id": 1, "label": "Brand" }
+            ],
+            "optional": [
+                { "id": 2, "label": "EAN" }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "label": "Max price",
+        "grouping": [
+            { "id": 1, "label": "per product"           },
+            { "id": 2, "label": "per brand"             },
+            { "id": 3, "label": "per product per brand" }
+        ],
+        "fields": {
+            "required": [
+                { "id": 1, "label": "Brand" }
+            ],
+            "optional": [
+                { "id": 2, "label": "EAN" }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "label": "Min price",
+        "grouping": [
+            { "id": 1, "label": "per product"           },
+            { "id": 2, "label": "per brand"             },
+            { "id": 3, "label": "per product per brand" }
+        ],
+        "fields": {
+            "required": [
+                { "id": 1, "label": "Brand" }
+            ],
+            "optional": [
+                { "id": 2, "label": "EAN" }
+            ]
+        }
+    }
+]
