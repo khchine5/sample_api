@@ -1,8 +1,8 @@
-{"res" : [
+{"data" : [
     {
         "id": 1,
         "label": "Average price",
-        "grouping": [
+        "granularity": [
             { "id": 1, "label": "per product"           },
             { "id": 2, "label": "per brand"             },
             { "id": 3, "label": "per product per brand" }
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "label": "Max price",
-        "grouping": [
+        "granularity": [
             { "id": 1, "label": "per product"           },
             { "id": 2, "label": "per brand"             },
             { "id": 3, "label": "per product per brand" }
@@ -36,7 +36,7 @@
     {
         "id": 2,
         "label": "Min price",
-        "grouping": [
+        "granularity": [
             { "id": 1, "label": "per product"           },
             { "id": 2, "label": "per brand"             },
             { "id": 3, "label": "per product per brand" }
