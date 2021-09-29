@@ -3,8 +3,23 @@
         "id": 1,
         "label": "Average price",
         "granularity": [
-            { "id": 1, "label": "per product"           },
-            { "id": 2, "label": "per brand"             },
+            { "id": 1, "label": "per product",
+            "fields": {
+            "required": [
+                { "id": 1, "label": "Brand" }
+            ],
+            "optional": [
+                { "id": 2, "label": "EAN" }
+            ]
+        }},
+            { "id": 2, "label": "per brand" ,"fields": {
+            "required": [
+                { "id": 1, "label": "Brand" }
+            ],
+            "optional": [
+                { "id": 2, "label": "EAN" }
+            ]
+        }       },
             { "id": 3, "label": "per product per brand" }
         ],
         "fields": {
