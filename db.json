@@ -1,29 +1,58 @@
-{"data" : [
-    {
-        "id": 1,
-        "label": "Average price",
-        "label_verbose": "Average price",
-        "granularity": [
-            { "id": 1, "label": "per product","label_verbose": "per product",
-            "fields": {
-            "required": [
-                { "id": 1, "label": "Brand" , "label_verbose": "Brand"}
-            ],
-            "optional": [
-                { "id": 2, "label": "EAN","label_verbose": "EAN" }
-            ]
-        }},
-            { "id": 2, "label": "per brand" ,"label_verbose": "per brand","fields": {
-            "required": [
-                { "id": 1, "label": "Brand","label_verbose": "brand" }
-            ],
-            "optional": [
-                { "id": 2, "label": "EAN","label_verbose": "EAN" }
-            ]
-        }       },
-            { "id": 3, "label": "per product per brand" ,"label_verbose": "per product per brand"}
-        ]
-    },
-    
-]
+{
+   "data":[
+      {
+         "id":1,
+         "label":"Average price",
+         "label_verbose":"Average price",
+         "granularity":[
+            {
+               "id":1,
+               "label":"per product",
+               "label_verbose":"per product",
+               "fields":{
+                  "required":[
+                     {
+                        "id":1,
+                        "label":"Brand",
+                        "label_verbose":"Brand"
+                     }
+                  ],
+                  "optional":[
+                     {
+                        "id":2,
+                        "label":"EAN",
+                        "label_verbose":"EAN"
+                     }
+                  ]
+               }
+            },
+            {
+               "id":2,
+               "label":"per brand",
+               "label_verbose":"per brand",
+               "fields":{
+                  "required":[
+                     {
+                        "id":1,
+                        "label":"Brand",
+                        "label_verbose":"brand"
+                     }
+                  ],
+                  "optional":[
+                     {
+                        "id":2,
+                        "label":"EAN",
+                        "label_verbose":"EAN"
+                     }
+                  ]
+               }
+            },
+            {
+               "id":3,
+               "label":"per product per brand",
+               "label_verbose":"per product per brand"
+            }
+         ]
+      }
+   ]
 }
